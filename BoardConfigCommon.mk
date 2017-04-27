@@ -20,6 +20,9 @@ VENDOR_PATH := device/asus/msm8916-common
 
 TARGET_SPECIFIC_HEADER_PATH := $(VENDOR_PATH)/include
 
+# QSAP_SDK
+#USE_PREBUILT_LIBQSAP_SDK := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
