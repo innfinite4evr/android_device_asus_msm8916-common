@@ -2,3 +2,8 @@ allow kernel self:capability chown;
 
 allow kernel asdf_data_file:dir create_dir_perms;
 allow kernel asdf_data_file:file create_file_perms;
+
+# init domain
+allow kernel init:process dyntransition;
+allow kernel init:security setcheckreqprot;
+allow kernel init:process setcurrent;
